@@ -1,0 +1,491 @@
+[
+    {
+        "question": "Erasmus öğrenim ve staj hareketliliğinde asgari ve azami süreler ne kadardır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "asgari 2 ay",
+            "azami 12 ay"
+        ],
+        "notes": "Madde 9(1)-a bendinde belirtilmiştir."
+    },
+    {
+        "question": "Başvuru aşamasında henüz transkripti oluşmamış birinci sınıf öğrencilerinin Erasmus'a başvurabilmesi için lise mezuniyet notu en az kaç olmalıdır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "75/100",
+            "lise mezuniyet notu"
+        ],
+        "notes": "Madde 9(1)-b-v bendinde geçmektedir."
+    },
+    {
+        "question": "Daha önce Erasmus faaliyetinden yararlanmış bir öğrencinin seçim puanı hesaplanırken kaç puan eksiltme uygulanır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "10'ar puan eksiltme",
+            "10 puan"
+        ],
+        "notes": "Madde 9(1)-b-iv bendindeki değerlendirme kriteridir."
+    },
+    {
+        "question": "Erasmus staj öğrencisi seçimi için yapılacak yabancı dil sınavından en az kaç puan alınmalıdır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 5,
+        "expected_keywords": [
+            "minimum puan",
+            "50",
+            "100 üzerinden"
+        ],
+        "notes": "Madde 9(1)-e-ii uyarınca staj dil barajıdır."
+    },
+    {
+        "question": "Erasmus hareketliliğinde öğrenciye verilen hibe hangi oranlarda ve ne zaman ödenir?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 7,
+        "expected_keywords": [
+            "%80",
+            "%20",
+            "hareketlilik öncesi",
+            "hareketlilik sonrası"
+        ],
+        "notes": "Madde 9(1)-i-iv'de açıklanan hibe ödeme planıdır[cite: 3]."
+    },
+    {
+        "question": "Çift anadal programına başvuracak lisans öğrencilerinin genel not ortalaması (GNO) en az kaç olmalıdır?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "4.00 üzerinden",
+            "en az 3.00",
+            "üstten %20"
+        ],
+        "notes": "Madde 6(3) başvuru şartlarında belirtilmiştir."
+    },
+    {
+        "question": "Çift anadal programından mezun olabilmek için anadal programındaki not ortalamasının en az kaç olması gerekir?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "4.00 üzerinden",
+            "2.72"
+        ],
+        "notes": "Madde 6(5) mezuniyet koşuludur."
+    },
+    {
+        "question": "Çift anadal programından iki yarıyıl üst üste ders almayan öğrencinin durumu ne olur?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "kaydı silinir",
+            "ikinci anadal diploma programı"
+        ],
+        "notes": "Madde 6(11) uyarınca ilişik kesilme sebebidir."
+    },
+    {
+        "question": "Yandal programına en erken ve en geç hangi yarıyılların başında başvurulabilir?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "en erken üçüncü",
+            "en geç altıncı"
+        ],
+        "notes": "Madde 10(1) başvuru süresi şartıdır."
+    },
+    {
+        "question": "Yandal programına devam edebilmesi için öğrencinin anadal programındaki not ortalaması en az kaç olmalıdır?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "2.30",
+            "4.00 üzerinden"
+        ],
+        "notes": "Madde 11(2) devam koşuludur."
+    },
+    {
+        "question": "Üniversiteye tam burs ile yerleşen bir öğrenci İngilizce Hazırlık Programını iki yılda başaramazsa ne olur?",
+        "expected_document": "burs.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "bursları kesilir"
+        ],
+        "notes": "Madde 4(4) burs kesilme kuralıdır."
+    },
+    {
+        "question": "Giriş bursları ve yıl içinde uygulanan diğer burslar yaz okulunda geçerli midir?",
+        "expected_document": "burs.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "yaz okulunda geçerli değildir"
+        ],
+        "notes": "Madde 4(6) kapsamındadır."
+    },
+    {
+        "question": "Altınbaş Üniversitesi'nde okuyan kardeş öğrencilere yüzde kaç oranında indirim yapılır?",
+        "expected_document": "burs.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "%10 indirim"
+        ],
+        "notes": "Madde 8(1) kardeş indirimi kuralıdır."
+    },
+    {
+        "question": "Tezli yüksek lisans ve doktora programlarında şehit yakını, gazi ve gazi yakını olan öğrencilere yüzde kaç burslu kontenjan tahsis edilir?",
+        "expected_document": "burs.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "%2",
+            "en yüksek yerleştirme puanı"
+        ],
+        "notes": "Madde 11(2) kontenjan dağılımıdır."
+    },
+    {
+        "question": "Burs alan bir öğrenci disiplin suçu işleyerek okuldan uzaklaştırma cezası alırsa bursuna ne olur?",
+        "expected_document": "burs.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "izleyen yılda bursu kesilir"
+        ],
+        "notes": "Madde 16(1) disiplin cezası sonucudur."
+    },
+    {
+        "question": "Öğrenim Hareketliliğine başvuru sırasında öğrencinin bir dönem için minimum kredisi ne olmalıdır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 5,
+        "expected_keywords": [
+            "bir dönem için minimum 28",
+            "iki dönem için",
+            "56 kredi"
+        ],
+        "notes": "Madde 9(1)-b-vi bendinde belirtilmektedir."
+    },
+    {
+        "question": "Çift anadalda öğrenim gören bir öğrenci Erasmus'a başvururken her iki anadalından da aynı anda başvurabilir mi?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 5,
+        "expected_keywords": [
+            "aynı başvuru döneminde",
+            "sadece bir anadaldan"
+        ],
+        "notes": "Madde 9(1)-d-i bendinde açıklanmıştır."
+    },
+    {
+        "question": "Erasmus öğrenim öğrencisi seçimi için yabancı dil sınavı minimum puanı kaçtır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 5,
+        "expected_keywords": [
+            "minimum puan",
+            "60",
+            "100 üzerinden"
+        ],
+        "notes": "Madde 9(1)-e-i uyarınca öğrenim hareketliliği dil barajıdır."
+    },
+    {
+        "question": "Şehit ve gazi çocuklarına Erasmus yerleştirmelerinde kaç puan eklenir?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 6,
+        "expected_keywords": [
+            "+15 puan",
+            "şehit ve gazi"
+        ],
+        "notes": "Madde 9(1)-g-vii'de yer alan ek puan kuralıdır."
+    },
+    {
+        "question": "Erasmus Öğrenim Hareketliliğinin geçerli sayılması için öğrencinin dönem başına alması gereken AKTS sınırları nelerdir?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 7,
+        "expected_keywords": [
+            "en az 25 AKTS",
+            "en fazla 32 AKTS"
+        ],
+        "notes": "Madde 9(1)-ı-vii bendindeki kredi sınırıdır."
+    },
+    {
+        "question": "Erasmus öğreniminde transkriptteki toplam AKTS kredisinde başarı oranı %24-%5 arasında olan bir öğrencinin kalan %20'lik hibesinden yüzde kaç kesinti yapılır?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 8,
+        "expected_keywords": [
+            "%15",
+            "%24-%5"
+        ],
+        "notes": "Madde 9(1)-k-ii tablosundaki kesinti oranlarıdır."
+    },
+    {
+        "question": "Erasmus personel ders verme hareketliliğinde asgari ders saati şartı nedir?",
+        "expected_document": "erasmus.pdf",
+        "expected_page": 10,
+        "expected_keywords": [
+            "en az 8 saat",
+            "ders verilmesi zorunludur"
+        ],
+        "notes": "Madde 9(1)-ö-iii-1 bendinde belirtilen asgari süredir."
+    },
+    {
+        "question": "Çift anadal programına yetenek sınavı ile öğrenci kabulünde hangi ek şart aranır?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "yetenek sınavında",
+            "başarılı olma şartı"
+        ],
+        "notes": "Madde 5(5) uyarınca ek kabul şartıdır."
+    },
+    {
+        "question": "Dört yıllık lisans diploma programlarında çift anadal başvuruları en erken ve en geç hangi yarıyıllarda yapılabilir?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "en erken üçüncü",
+            "en geç beşinci"
+        ],
+        "notes": "Madde 6(1)'de belirtilen başvuru penceresidir."
+    },
+    {
+        "question": "DGS ile yerleşen adaylar her bölüme çift anadal başvurusu yapabilir mi?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "başarı sıralaması şartı bulunan",
+            "başvurusu yapamaz"
+        ],
+        "notes": "Madde 6(1) içindeki DGS istisnasıdır."
+    },
+    {
+        "question": "Çift anadal kontenjanları ilgili program kontenjanının en az yüzde kaçı olmalıdır?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "%20'sinden az olamaz",
+            "hukuk, tıp ve sağlık ile mühendislik"
+        ],
+        "notes": "Madde 6(2)'deki kontenjan sınırıdır."
+    },
+    {
+        "question": "Altınbaş Üniversitesi yandal programı en az kaç AKTS'den oluşur?",
+        "expected_document": "cap-yandal.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "en az 30 AKTS"
+        ],
+        "notes": "Madde 9(5) program büyüklüğü kuralıdır."
+    },
+    {
+        "question": "Spor Başarı Bursları yaz okulu eğitim ücretlerini de kapsar mı?",
+        "expected_document": "burs.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "yaz okulu",
+            "kapsamaz"
+        ],
+        "notes": "Madde 5(3)'te belirtilen istisnadır."
+    },
+    {
+        "question": "Altınbaş Üniversitesi çalışanlarının eş ve çocuklarına yüzde kaç personel indirimi uygulanır?",
+        "expected_document": "burs.pdf",
+        "expected_page": 3,
+        "expected_keywords": [
+            "%50 indirim"
+        ],
+        "notes": "Madde 10(1) personel indirimi kuralıdır."
+    },
+    {
+        "question": "Üniversiteye özel veya tüzel kişiler tarafından yapılan bağışlar hangi fona aktarılır?",
+        "expected_document": "burs.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "Özel Burslar Fonu"
+        ],
+        "notes": "Madde 14(2) uyarınca bağışların aktarıldığı fondur."
+    },
+    {
+        "question": "Tıp Fakültesi hariç, güz dönemi final sınavları hangi tarihler arasında yapılacaktır?",
+        "expected_document": "akademiktakvim-güz.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "14-25 Aralık 2026"
+        ],
+        "notes": "Güz takviminde yer alan final sınavı tarihleridir."
+    },
+    {
+        "question": "Güz dönemi Winterfest etkinliği ne zaman yapılacaktır ve o gün ders olacak mıdır?",
+        "expected_document": "akademiktakvim-güz.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "03 Aralık 2026",
+            "Ders ve Sınav Yapılmayacaktır"
+        ],
+        "notes": "Winterfest etkinliği ve ders durumu kuralıdır."
+    },
+    {
+        "question": "Güz döneminde ders ekle-bırak haftası hangi tarihler arasındadır?",
+        "expected_document": "akademiktakvim-güz.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "28 Eylül",
+            "09 Ekim 2026"
+        ],
+        "notes": "Ders kayıt işlemlerine ait tarih aralığıdır."
+    },
+    {
+        "question": "Tıp Fakültesi hariç, bahar dönemi dersleri ne zaman başlayıp ne zaman bitmektedir?",
+        "expected_document": "akademiktakvim-bahar.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "25 Ocak",
+            "30 Nisan 2027"
+        ],
+        "notes": "Bahar yarıyılı eğitim öğretim süresidir."
+    },
+    {
+        "question": "2026-2027 Bahar Şenliği hangi tarihlerde yapılacaktır?",
+        "expected_document": "akademiktakvim-bahar.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "15-16 Nisan 2027"
+        ],
+        "notes": "Bahar takvimindeki şenlik tarihleridir."
+    },
+    {
+        "question": "Üniversitenin mezuniyet töreni hangi tarihler arasında planlanmıştır?",
+        "expected_document": "akademiktakvim-bahar.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "14-20 Haziran 2027",
+            "Pazartesi-Pazar"
+        ],
+        "notes": "Bahar takviminde belirtilen mezuniyet haftasıdır."
+    },
+    {
+        "question": "Tıp Fakültesi 6. Sınıf öğrencileri için eğitim başlangıç tarihi nedir?",
+        "expected_document": "akademiktakvim-tip.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "13.07.2026"
+        ],
+        "notes": "Tıp fakültesi takvimindeki en erken başlama tarihidir."
+    },
+    {
+        "question": "Tıp Fakültesi 1. Sınıf öğrencilerinin güz dönemi dersleri ne zaman başlamaktadır?",
+        "expected_document": "akademiktakvim-tip.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "21.09.2026"
+        ],
+        "notes": "Birinci sınıflar için belirlenmiş başlangıç günüdür."
+    },
+    {
+        "question": "Tıp Fakültesi 4. sınıf güz dönemi bütünleme sınavları hangi günlerde yapılacaktır?",
+        "expected_document": "akademiktakvim-tip.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "(14-15).01.2027"
+        ],
+        "notes": "Dördüncü sınıflar için güz bütünleme tarihleridir."
+    },
+    {
+        "question": "Akademik takvime göre Tıp Bayramı kutlaması hangi tarihe ve güne denk gelmektedir?",
+        "expected_document": "akademiktakvim-tip.pdf",
+        "expected_page": 4,
+        "expected_keywords": [
+            "14.03.2026",
+            "Pazar"
+        ],
+        "notes": "Tıp fakültesi bahar dönemi özel günlerindendir."
+    },
+    {
+        "question": "YKS ile gelen lisans öğrencileri için İngilizce hazırlık seviye belirleme sınavı ne zaman yapılacaktır?",
+        "expected_document": "hazirlikakademiktakvim.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "9 Eylül 2026"
+        ],
+        "notes": "İngilizce hazırlık takviminde yer alan sınav tarihidir."
+    },
+    {
+        "question": "İngilizce Hazırlık Programında yaz okulu final sınavları hangi günlerde yapılacaktır?",
+        "expected_document": "hazirlikakademiktakvim.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "19 Ağustos",
+            "20 Ağustos 2027"
+        ],
+        "notes": "İngilizce yaz okulu final tarihleridir."
+    },
+    {
+        "question": "Türkçe Hazırlık Programında lisans ve lisansüstü öğrencileri için Türkçe yeterlik sınavı ne zaman yapılacaktır?",
+        "expected_document": "hazirlikakademiktakvim-turkce.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "9 Eylül 2026"
+        ],
+        "notes": "Türkçe yeterlik sınavı kuralıdır."
+    },
+    {
+        "question": "Türkçe Hazırlık Programı 3. çeyrek ders seçim işlemleri ücret ödemeleri için son tarih nedir?",
+        "expected_document": "hazirlikakademiktakvim-turkce.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "12 Şubat 2027 Cuma (17.00)"
+        ],
+        "notes": "3. çeyrek TSL100 EWI sistemi ders seçim tarih aralığıdır."
+    },
+    {
+        "question": "Türkçe Hazırlık Programı öğrencilerinin 4. çeyrek final sınavları ne zaman yapılacaktır?",
+        "expected_document": "hazirlikakademiktakvim-turkce.pdf",
+        "expected_page": 2,
+        "expected_keywords": [
+            "27 Mayıs",
+            "28 Mayıs 2027"
+        ],
+        "notes": "Türkçe hazırlık bahar dönemi sonu sınavlarıdır."
+    },
+    {
+        "question": "Almanca Hazırlık Programı A1 modülü final sınavı hangi tarihte gerçekleştirilecektir?",
+        "expected_document": "hazirlikakademiktakvim-almanca.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "2 Kasım 2026 Pazartesi"
+        ],
+        "notes": "Almanca A1 modülü sınav takvimidir."
+    },
+    {
+        "question": "Almanca Hazırlık Programında B1 modülü dersleri ne zaman başlayacaktır?",
+        "expected_document": "hazirlikakademiktakvim-almanca.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "4 Ocak 2027"
+        ],
+        "notes": "Almanca B1 modülü başlangıç tarihidir."
+    },
+    {
+        "question": "Almanca Hazırlık Programı kapsamında Goethe B2 / TELC B2 yoğun sınav hazırlığı hangi tarihler arasındadır?",
+        "expected_document": "hazirlikakademiktakvim-almanca.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "24 Mayıs",
+            "31 Mayıs 2027"
+        ],
+        "notes": "B2 sertifika sınavı hazırlık sürecidir."
+    },
+    {
+        "question": "Almanca Hazırlık Programında yalnızca B2 modülünde başarısız olan öğrenciler için telafi haftası ne zamandır?",
+        "expected_document": "hazirlikakademiktakvim-almanca.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "28 Mayıs",
+            "31 Mayıs 2027"
+        ],
+        "notes": "B2 modülü telafi haftası özel şartıdır."
+    },
+    {
+        "question": "Almanca Hazırlık Programı öğrencilerinin Köln Üniversitesi akademik gezisi hangi tarihler arasında planlanmıştır?",
+        "expected_document": "hazirlikakademiktakvim-almanca.pdf",
+        "expected_page": 1,
+        "expected_keywords": [
+            "7 Haziran",
+            "18 Haziran"
+        ],
+        "notes": "Almanca hazırlık takvimindeki gezi programıdır."
+    }
+]
