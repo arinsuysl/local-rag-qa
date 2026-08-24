@@ -1,3 +1,27 @@
+# Yerel RAG Tabanlı Doküman Soru-Cevap Sistemi
+
+Bu proje, kurum içi PDF dokümanları üzerinden halüsinasyon görmeden, tamamen yerel (çevrimdışı) kaynaklarla çalışan bir Retrieval-Augmented Generation (RAG) asistanıdır.
+
+## 🚀 Kullanılan Teknolojiler
+* **Arayüz:** Streamlit
+* **Veritabanı:** Qdrant (Vektör Arama)
+* **Embeddings:** intfloat/multilingual-e5-small (384-boyut)
+* **Dil Modeli:** qwen3:4b-q4_K_M (Ollama üzerinden yerel)
+* **Doküman İşleme:** PyMuPDF
+
+## ⚙️ Kurulum ve Çalıştırma
+
+1. Repoyu bilgisayarınıza klonlayın ve klasöre girin.
+2. Gerekli kütüphaneleri kurun:
+   `pip install -r requirements.txt`
+3. Qdrant vektör veritabanını Docker üzerinden başlatın (varsa).
+4. Streamlit arayüzünü çalıştırın:
+   `streamlit run app.py` (Kendi ana çalıştırma dosyanın adını yaz)
+
+---
+
+## 🧠 Teknik Arka Plan: Neden Quantization Kullanıldı?
+
 Büyük Dil Modellerinde (LLM) Quantization (Sıkıştırma) Analizi
 Quantization Neden VRAM/RAM Kullanımını Düşürür?
 Büyük Dil Modelleri, milyarlarca "parametre" (ağırlık) adı verilen sayısal değerden oluşur. Standart bir model eğitildiğinde bu değerler 32-bit (FP32) veya 16-bit (FP16/BF16) kayan noktalı (float) sayılar olarak belleğe kaydedilir.
