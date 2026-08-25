@@ -12,10 +12,10 @@ st.markdown("Dokümanlarınıza dayalı, uydurmayan yapay zeka asistanı.")
 API_URL = "http://localhost:8000/query"
 
 # kullanıcıdan soru alma kutusu
-question = st.text_input("Sorunuzu buraya yazın:", placeholder="Örn: Sistem nasıl çalışır?")
+question = st.text_input("Sorunuzu buraya yazın:", placeholder="Örn: Güz döneminde ders ekle-bırak haftası hangi tarihler arasındadır?")
 
 # buton
-if st.button("Soru Sor"):
+if st.button("Soru Sor", type="primary"):
     if question.strip() == "":
         st.warning("Lütfen bir soru girin.")
     else:
