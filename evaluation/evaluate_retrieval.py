@@ -5,8 +5,8 @@ from sentence_transformers import SentenceTransformer
 
 # 1. Ayarlar ve Sabitler
 QDRANT_URL = "http://localhost:6333"
-COLLECTION_NAME = "mini_rag_documents" #
-EMBEDDING_MODEL = "intfloat/multilingual-e5-small" #
+COLLECTION_NAME = "mini_rag_documents" 
+EMBEDDING_MODEL = "intfloat/multilingual-e5-small" 
 EVAL_FILE = "evaluation/questions.json"
 
 def run_evaluation():
@@ -19,7 +19,7 @@ def run_evaluation():
         evaluation_data = json.load(f)
 
     total_questions = len(evaluation_data)
-    hits_at_1, hits_at_3, hits_at_5 = 0, 0, 0
+    hits_at_1, hits_at_3, hits_at_5, hits_at_10 = 0, 0, 0, 0
     total_latency = 0
 
     print(f"Toplam {total_questions} soru değerlendiriliyor...\n")
@@ -36,11 +36,11 @@ def run_evaluation():
         # 1. Soruyu vektöre (embedding) çevir
         query_vector = model.encode(query_text).tolist()
         
-        # 2. Qdrant'ta Top-5 araması yap (semantic search)
+        # 2. Qdrant'ta Top-10 araması yap (semantic search)
         search_response = client.query_points(
             collection_name=COLLECTION_NAME,
             query=query_vector,
-            limit=5
+            limit=10
         )
         # Gelen cevabın içinden sadece bulduğu sonuçları (points) alıyoruz
         search_results = search_response.points
@@ -53,13 +53,15 @@ def run_evaluation():
         # Geliştirme aşamasında 'document_name' metadata alanını kullandığını varsayıyoruz[cite: 1]
         retrieved_docs = [hit.payload.get("document_name") for hit in search_results]
 
-        # 4. Metrikleri Kontrol Et (Recall)[cite: 1]
+        # 4. Metrikleri Kontrol Et (Recall)
         if expected_doc in retrieved_docs[:1]:
             hits_at_1 += 1
         if expected_doc in retrieved_docs[:3]:
             hits_at_3 += 1
         if expected_doc in retrieved_docs[:5]:
             hits_at_5 += 1
+        if expected_doc in retrieved_docs[:10]:
+            hits_at_10 += 1
 
     # Sonuç Raporunu Ekrana Yazdır
     print("-" * 40)
@@ -69,6 +71,7 @@ def run_evaluation():
     print(f"Recall@1:  {hits_at_1 / total_questions:.2f}  ({hits_at_1}/{total_questions})")
     print(f"Recall@3:  {hits_at_3 / total_questions:.2f}  ({hits_at_3}/{total_questions})")
     print(f"Recall@5:  {hits_at_5 / total_questions:.2f}  ({hits_at_5}/{total_questions})")
+    print(f"Recall@10: {hits_at_10 / total_questions:.2f}  ({hits_at_10}/{total_questions})")
     print(f"Ortalama Gecikme (Latency): {total_latency / total_questions:.3f} saniye")
     print("-" * 40)
 
