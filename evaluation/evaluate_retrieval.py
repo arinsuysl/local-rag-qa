@@ -63,6 +63,13 @@ def run_evaluation():
         if expected_doc in retrieved_docs[:10]:
             hits_at_10 += 1
 
+        # bulunmayan soruları raporla
+        else:
+            print("\n🚨 BULUNAMAYAN SORU TESPİT EDİLDİ 🚨")
+            print(f"Soru: {question}")
+            print(f"Beklenen Doküman: {expected_doc}")
+            print(f"Modelin Getirdiği Dokümanlar: {retrieved_docs[:10]}\n")
+
     # Sonuç Raporunu Ekrana Yazdır
     print("-" * 40)
     print("🎯 RETRIEVAL DEĞERLENDİRME SONUÇLARI 🎯")
