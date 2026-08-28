@@ -1,7 +1,7 @@
 import os
 import pymupdf
 from app.embeddings import embedding_model
-from app.vector_store import upsert_chunks_to_qdrant
+from app.vector_store import upsert_chunks_to_qdrant, init_vector_db
 
 # Yönergedeki hedef klasör yapısı
 PDF_KLASORU = "sample_documents"
@@ -66,6 +66,7 @@ if __name__ == "__main__":
             chunk["embedding"] = vektorler[i]
             
         print("--- ADIM 3: QDRANT VERİTABANINA YÜKLEME ---")
+        init_vector_db()
         upsert_chunks_to_qdrant(chunk_listesi)
         
         print("\nTüm dokümanlar başarıyla Qdrant'a indekslendi!")

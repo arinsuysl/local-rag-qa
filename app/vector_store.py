@@ -3,7 +3,7 @@ from qdrant_client.http import models
 import uuid
 
 # Qdrant'a bağlanıyoruz (Docker üzerinde 6333 portundan yayın yapıyor)
-client = QdrantClient(url="http://localhost:6333")
+client = QdrantClient(url="http://qdrant:6333")
 COLLECTION_NAME = "mini_rag_documents"
 
 def init_vector_db():

@@ -9,7 +9,7 @@ st.title("🤖 Yerel RAG Doküman Asistanı")
 st.markdown("Dokümanlarınıza dayalı, uydurmayan yapay zeka asistanı.")
 
 # API Adresimiz (FastAPI'nin çalıştığı adres)
-API_URL = "http://localhost:8000/query"
+API_URL = "http://api:8000/query"
 
 # kullanıcıdan soru alma kutusu
 question = st.text_input("Sorunuzu buraya yazın:", placeholder="Örn: Güz döneminde ders ekle-bırak haftası hangi tarihler arasındadır?")

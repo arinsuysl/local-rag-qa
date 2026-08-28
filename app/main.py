@@ -58,7 +58,7 @@ def ask_question(request: QueryRequest):
 
     prompt = build_prompt(request.question, context_texts)
 
-    url = "http://localhost:11434/api/generate"
+    url = "http://host.docker.internal:11434/api/generate"
     payload = {"model": "qwen3:4b-q4_K_M", 
                "prompt": prompt,
                "stream": False # cevapları tek seferde alıyoruz, harf harf değil
